@@ -834,20 +834,56 @@
                   <div
                     class="bg-slate-800/50 rounded-lg p-3 mt-2 border border-slate-700"
                   >
-                    <p class="text-xs text-slate-400 leading-relaxed">
+                    <p class="text-xs text-slate-400 leading-relaxed mb-2">
                       📏 <strong class="text-cyan-300">¿Qué es?</strong> La
                       <strong>altura de las ondas</strong> cerebrales medida en
                       microvoltios (µV).
                     </p>
-                    <p class="text-xs text-slate-500 mt-1">
-                      <strong class="text-slate-400">Efecto:</strong> Mayor
-                      amplitud → ondas más altas y visibles. Amplitud baja →
-                      ondas casi planas.
-                    </p>
-                    <p class="text-xs text-slate-500 mt-1">
-                      <strong class="text-slate-400">En la realidad:</strong>
-                      Una amplitud muy alta puede indicar actividad epiléptica.
-                      Una muy baja puede significar problemas en los electrodos.
+                    <div
+                      class="bg-cyan-900/20 rounded p-2 mb-2 border border-cyan-500/30"
+                    >
+                      <p class="text-xs text-cyan-300 font-semibold mb-1">
+                        🔍 ¿Cómo se determina en la realidad?
+                      </p>
+                      <p class="text-xs text-slate-400 leading-relaxed">
+                        La amplitud NO la eliges tú. El cerebro genera señales
+                        eléctricas naturalmente (10-100 µV típicamente). El
+                        <strong class="text-cyan-400"
+                          >amplificador del EEG</strong
+                        >
+                        (ganancia x1000-x10000) multiplica esa señal débil para
+                        hacerla visible.
+                      </p>
+                      <p class="text-xs text-slate-500 mt-1">
+                        En este simulador TÚ controlas la amplitud para simular
+                        diferentes condiciones cerebrales o ajustar la
+                        visualización.
+                      </p>
+                    </div>
+                    <div class="space-y-1 mb-2">
+                      <p class="text-xs text-slate-500">
+                        <strong class="text-slate-400"
+                          >Amplitud normal (adulto relajado):</strong
+                        >
+                        20-60 µV
+                      </p>
+                      <p class="text-xs text-slate-500">
+                        <strong class="text-slate-400"
+                          >Amplitud alta (crisis epiléptica):</strong
+                        >
+                        &gt;200 µV
+                      </p>
+                      <p class="text-xs text-slate-500">
+                        <strong class="text-slate-400"
+                          >Amplitud muy baja:</strong
+                        >
+                        Mala conexión de electrodos
+                      </p>
+                    </div>
+                    <p class="text-xs text-slate-500">
+                      <strong class="text-slate-400">Tu rol:</strong> Ajustar
+                      este control para que las ondas sean visibles en la
+                      pantalla sin saturar (como el volumen en un micrófono).
                     </p>
                   </div>
                 </div>
@@ -3198,7 +3234,7 @@
           if (b) {
             var d = b.createElement("script");
             d.innerHTML =
-              "window.__CF$cv$params={r:'9c01c826327abd6a',t:'MTc2ODc3Nzk5NS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+              "window.__CF$cv$params={r:'9c01e5b90438ac50',t:'MTc2ODc3OTIwNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
             b.getElementsByTagName("head")[0].appendChild(d);
           }
         }
